@@ -1,0 +1,12 @@
+---
+- hosts: test
+  collections:
+  - ibm.ibm_zos_core
+  gather_facts: true
+  environment: '{{ environment_vars }}'
+  tasks:
+    - name: trigger_broadcom_scrt_esp_event
+      zos_tso_command: 
+        commands:
+          - F ESPT,TRIGGER SYMVSPP.CA_SCRT ADD
+     register: result1
