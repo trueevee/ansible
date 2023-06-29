@@ -1,0 +1,59 @@
+source_systems:
+  hosts:
+    hwdr:
+      ansible_host: hwdr.teale.ca.gov
+      ansible_user: dchz90
+    test:
+      ansible_host: hwdct1.cahwnet.gov
+      ansible_user: dchz90
+    tst2:
+      ansible_host: hwdct2.cahwnet.gov
+      ansible_user: dchz90
+    s1s1:
+      ansible_host: hwdcs1.cahwnet.gov
+      ansible_user: dchz90
+    s2s2:
+      ansible_host: hwdcs2.cahwnet.gov
+      ansible_user: dchz90
+    sy9:
+      ansible_host: mvssy9.teale.ca.gov
+      ansible_user: dchz99
+    sy2:
+      ansible_host: mvssy2.teale.ca.gov
+      ansible_user: dchz90
+    sy7:
+      ansible_host: mvssy7.teale.ca.gov
+      ansible_user: dchz90
+    sy4:
+      ansible_host: mvssy4.teale.ca.gov
+      ansible_user: dchz90
+    sy5:
+      ansible_host: mvssy5.teale.ca.gov
+      ansible_user: dchz90
+    sy6:
+      ansible_host: mvssy6.teale.ca.gov
+      ansible_user: dchz90
+    sy3:
+      ansible_host: mvssy3.teale.ca.gov
+      ansible_user: dchz90
+    sct1:
+      ansible_host: sct1.teale.ca.gov
+      ansible_user: dchz90
+    sct2:
+      ansible_host: sct2.teale.ca.gov
+      ansible_user: dchz90
+    soc:
+      ansible_host: soc.teale.ca.gov
+      ansible_user: dchz90
+    socp:
+      ansible_host: socp.teale.ca.gov
+      ansible_user: dchz90
+    cla9:
+      ansible_host: '134.187.204.5'
+      ansible_user: zdzhz99
+    dddd:
+      ansible_host: '172.16.226.229'
+      ansible_user: zdzvxols -l
+    cccc:
+      ansible_host: '172.16.226.228'
+      ansible_user: zdzvxo
